@@ -1,0 +1,393 @@
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Title = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Scripts = Instance.new("ScrollingFrame")
+local DarkHub = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Dahood = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Bedwars = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Tower = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Mm2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local PetsimulatorX = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local FunkyFridy = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local infYeild = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local FatesAdmin = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Telekenisis = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local CmdX = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(48, 50, 50)
+main.Position = UDim2.new(0.19135803, 0, 0.188976333, 0)
+main.Size = UDim2.new(0, 649, 0, 415)
+main.Active = true
+main.Draggable = true
+
+UICorner.CornerRadius = UDim.new(0, 20)
+UICorner.Parent = main
+
+Title.Name = "Title"
+Title.Parent = main
+Title.BackgroundColor3 = Color3.fromRGB(237, 29, 255)
+Title.BorderSizePixel = 0
+Title.Size = UDim2.new(0, 649, 0, 43)
+
+TextLabel.Parent = Title
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 649, 0, 43)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "Free Hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(28, 255, 25)
+TextLabel.TextWrapped = true
+
+TextButton.Parent = Title
+TextButton.BackgroundColor3 = Color3.fromRGB(23, 252, 255)
+TextButton.Position = UDim2.new(0.0246533137, 0, 0.186046511, 0)
+TextButton.Size = UDim2.new(0, 114, 0, 26)
+TextButton.Font = Enum.Font.GothamBold
+TextButton.Text = "Discord"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UICorner_2.Parent = TextButton
+
+Scripts.Name = "Scripts"
+Scripts.Parent = main
+Scripts.Active = true
+Scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.BackgroundTransparency = 1.000
+Scripts.BorderSizePixel = 0
+Scripts.Position = UDim2.new(0, 0, 0.103614457, 0)
+Scripts.Size = UDim2.new(0, 649, 0, 372)
+Scripts.ScrollBarThickness = 10
+
+DarkHub.Name = "DarkHub"
+DarkHub.Parent = Scripts
+DarkHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DarkHub.Position = UDim2.new(0.0369799696, 0, 0.0430237055, 0)
+DarkHub.Size = UDim2.new(0, 106, 0, 50)
+DarkHub.Font = Enum.Font.SourceSans
+DarkHub.Text = "DarkHub"
+DarkHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+DarkHub.TextScaled = true
+DarkHub.TextSize = 14.000
+DarkHub.TextWrapped = true
+
+UICorner_3.Parent = DarkHub
+
+Dahood.Name = "Dahood"
+Dahood.Parent = Scripts
+Dahood.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dahood.Position = UDim2.new(0.271186441, 0, 0.0430237055, 0)
+Dahood.Size = UDim2.new(0, 106, 0, 50)
+Dahood.Font = Enum.Font.SourceSans
+Dahood.Text = "Dahood"
+Dahood.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dahood.TextScaled = true
+Dahood.TextSize = 14.000
+Dahood.TextWrapped = true
+
+UICorner_4.Parent = Dahood
+
+Bedwars.Name = "Bedwars"
+Bedwars.Parent = Scripts
+Bedwars.BackgroundColor3 = Color3.fromRGB(254, 254, 254)
+Bedwars.Position = UDim2.new(0.511556268, 0, 0.0430237055, 0)
+Bedwars.Size = UDim2.new(0, 106, 0, 50)
+Bedwars.Font = Enum.Font.SourceSans
+Bedwars.Text = "Bedwars"
+Bedwars.TextColor3 = Color3.fromRGB(0, 0, 0)
+Bedwars.TextScaled = true
+Bedwars.TextSize = 14.000
+Bedwars.TextWrapped = true
+
+UICorner_5.Parent = Bedwars
+
+Tower.Name = "Tower"
+Tower.Parent = Scripts
+Tower.BackgroundColor3 = Color3.fromRGB(254, 254, 254)
+Tower.Position = UDim2.new(0.759630203, 0, 0.041818887, 0)
+Tower.Size = UDim2.new(0, 106, 0, 50)
+Tower.Font = Enum.Font.SourceSans
+Tower.Text = "Tower Of Hell"
+Tower.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tower.TextScaled = true
+Tower.TextSize = 14.000
+Tower.TextWrapped = true
+
+UICorner_6.Parent = Tower
+
+Mm2.Name = "Mm2"
+Mm2.Parent = Scripts
+Mm2.BackgroundColor3 = Color3.fromRGB(254, 254, 254)
+Mm2.Position = UDim2.new(0.0369799733, 0, 0.155071899, 0)
+Mm2.Size = UDim2.new(0, 106, 0, 50)
+Mm2.Font = Enum.Font.SourceSans
+Mm2.Text = "Mm2"
+Mm2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Mm2.TextScaled = true
+Mm2.TextSize = 14.000
+Mm2.TextWrapped = true
+
+UICorner_7.Parent = Mm2
+
+PetsimulatorX.Name = "PetsimulatorX"
+PetsimulatorX.Parent = Scripts
+PetsimulatorX.BackgroundColor3 = Color3.fromRGB(254, 254, 254)
+PetsimulatorX.Position = UDim2.new(0.271186441, 0, 0.155071899, 0)
+PetsimulatorX.Size = UDim2.new(0, 106, 0, 50)
+PetsimulatorX.Font = Enum.Font.SourceSans
+PetsimulatorX.Text = "Pet Simulator X"
+PetsimulatorX.TextColor3 = Color3.fromRGB(0, 0, 0)
+PetsimulatorX.TextScaled = true
+PetsimulatorX.TextSize = 14.000
+PetsimulatorX.TextWrapped = true
+
+UICorner_8.Parent = PetsimulatorX
+
+FunkyFridy.Name = "Funky Fridy"
+FunkyFridy.Parent = Scripts
+FunkyFridy.BackgroundColor3 = Color3.fromRGB(254, 254, 254)
+FunkyFridy.Position = UDim2.new(0.511556268, 0, 0.155071914, 0)
+FunkyFridy.Size = UDim2.new(0, 106, 0, 50)
+FunkyFridy.Font = Enum.Font.SourceSans
+FunkyFridy.Text = "Funky Friday"
+FunkyFridy.TextColor3 = Color3.fromRGB(0, 0, 0)
+FunkyFridy.TextScaled = true
+FunkyFridy.TextSize = 14.000
+FunkyFridy.TextWrapped = true
+
+UICorner_9.Parent = FunkyFridy
+
+infYeild.Name = "inf Yeild"
+infYeild.Parent = Scripts
+infYeild.BackgroundColor3 = Color3.fromRGB(254, 254, 254)
+infYeild.Position = UDim2.new(0.759630203, 0, 0.167120099, 0)
+infYeild.Size = UDim2.new(0, 106, 0, 50)
+infYeild.Font = Enum.Font.SourceSans
+infYeild.Text = "inf Yeild"
+infYeild.TextColor3 = Color3.fromRGB(0, 0, 0)
+infYeild.TextScaled = true
+infYeild.TextSize = 14.000
+infYeild.TextWrapped = true
+
+UICorner_10.Parent = infYeild
+
+FatesAdmin.Name = "Fates Admin"
+FatesAdmin.Parent = Scripts
+FatesAdmin.BackgroundColor3 = Color3.fromRGB(254, 254, 254)
+FatesAdmin.Position = UDim2.new(0.0369799733, 0, 0.258686364, 0)
+FatesAdmin.Size = UDim2.new(0, 106, 0, 50)
+FatesAdmin.Font = Enum.Font.SourceSans
+FatesAdmin.Text = "Fates Admin"
+FatesAdmin.TextColor3 = Color3.fromRGB(0, 0, 0)
+FatesAdmin.TextScaled = true
+FatesAdmin.TextSize = 14.000
+FatesAdmin.TextWrapped = true
+
+UICorner_11.Parent = FatesAdmin
+
+Telekenisis.Name = "Telekenisis"
+Telekenisis.Parent = Scripts
+Telekenisis.BackgroundColor3 = Color3.fromRGB(254, 254, 254)
+Telekenisis.Position = UDim2.new(0.271186441, 0, 0.258686364, 0)
+Telekenisis.Size = UDim2.new(0, 106, 0, 50)
+Telekenisis.Font = Enum.Font.SourceSans
+Telekenisis.Text = "Telekenisis"
+Telekenisis.TextColor3 = Color3.fromRGB(0, 0, 0)
+Telekenisis.TextScaled = true
+Telekenisis.TextSize = 14.000
+Telekenisis.TextWrapped = true
+
+UICorner_12.Parent = Telekenisis
+
+CmdX.Name = "CmdX"
+CmdX.Parent = Scripts
+CmdX.BackgroundColor3 = Color3.fromRGB(254, 254, 254)
+CmdX.Position = UDim2.new(0.511556268, 0, 0.258686364, 0)
+CmdX.Size = UDim2.new(0, 106, 0, 50)
+CmdX.Font = Enum.Font.SourceSans
+CmdX.Text = "CmdX"
+CmdX.TextColor3 = Color3.fromRGB(0, 0, 0)
+CmdX.TextScaled = true
+CmdX.TextSize = 14.000
+CmdX.TextWrapped = true
+
+UICorner_13.Parent = CmdX
+
+TextButton_2.Parent = main
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 2, 2)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.939907551, 0, 0.00963855442, 0)
+TextButton_2.Size = UDim2.new(0, 33, 0, 35)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "X"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UICorner_14.Parent = TextButton_2
+
+TextButton_3.Parent = ScreenGui
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 39, 255)
+TextButton_3.Position = UDim2.new(0.0246913582, 0, 0.894488215, 0)
+TextButton_3.Size = UDim2.new(0, 52, 0, 50)
+TextButton_3.Font = Enum.Font.GothamBold
+TextButton_3.Text = "F"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+UICorner_15.Parent = TextButton_3
+
+-- Scripts:
+
+local function JCZTAMC_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	setclipboard("https://discord.gg/VEaAdVruVS")
+	toclipboard("https://discord.gg/VEaAdVruVS")
+end
+coroutine.wrap(JCZTAMC_fake_script)()
+local function RJJSRM_fake_script() -- DarkHub.Activate 
+	local script = Instance.new('LocalScript', DarkHub)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+	end)
+end
+coroutine.wrap(RJJSRM_fake_script)()
+local function UFSN_fake_script() -- Dahood.Activate 
+	local script = Instance.new('LocalScript', Dahood)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Pvpahh/enclosed/main/enclosed'))()
+	end)
+end
+coroutine.wrap(UFSN_fake_script)()
+local function LZHCWX_fake_script() -- Bedwars.Activate 
+	local script = Instance.new('LocalScript', Bedwars)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+	end)
+end
+coroutine.wrap(LZHCWX_fake_script)()
+local function FFIOYK_fake_script() -- Tower.Activate 
+	local script = Instance.new('LocalScript', Tower)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
+	end)
+end
+coroutine.wrap(FFIOYK_fake_script)()
+local function VVLB_fake_script() -- Mm2.Activate 
+	local script = Instance.new('LocalScript', Mm2)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/RobloxExploiter1234/infyeild/main/ADMIN"), true))()
+	end)
+end
+coroutine.wrap(VVLB_fake_script)()
+local function RVZCOIO_fake_script() -- PetsimulatorX.Activate 
+	local script = Instance.new('LocalScript', PetsimulatorX)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/RobloxExploiter1234/Telekinisis/main/Tele"), true))()
+	end)
+end
+coroutine.wrap(RVZCOIO_fake_script)()
+local function QQMQGX_fake_script() -- FunkyFridy.Activate 
+	local script = Instance.new('LocalScript', FunkyFridy)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+	end)
+end
+coroutine.wrap(QQMQGX_fake_script)()
+local function HWRVKPU_fake_script() -- infYeild.Activate 
+	local script = Instance.new('LocalScript', infYeild)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(HWRVKPU_fake_script)()
+local function DJFYGC_fake_script() -- FatesAdmin.Activate 
+	local script = Instance.new('LocalScript', FatesAdmin)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+	end)
+end
+coroutine.wrap(DJFYGC_fake_script)()
+local function CRZXQBD_fake_script() -- Telekenisis.Activate 
+	local script = Instance.new('LocalScript', Telekenisis)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+	end)
+end
+coroutine.wrap(CRZXQBD_fake_script)()
+local function ZNOXVE_fake_script() -- CmdX.Activate 
+	local script = Instance.new('LocalScript', CmdX)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+	end)
+end
+coroutine.wrap(ZNOXVE_fake_script)()
+local function JSEF_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(JSEF_fake_script)()
+local function ZBHYX_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local frame = script.Parent.Parent.main -- change “Test” to the name of the frane
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+	
+end
+coroutine.wrap(ZBHYX_fake_script)()
